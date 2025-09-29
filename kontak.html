@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak MB Star Glow - Alamat & Pemesanan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Gaya tambahan khusus untuk Peta agar responsif */
+        .map-container {
+            overflow: hidden;
+            padding-bottom: 56.25%; /* Rasio 16:9 */
+            position: relative;
+            height: 0;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px var(--color-shadow);
+        }
+        .map-container iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="mb star glow logo kecil.png" alt="MB Star Glow Logo" class="logo-img">
+            <span class="logo-text">MB STAR GLOW</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="layanan.html">Layanan & Harga</a></li>
+                <li><a href="keunggulan.html">Keunggulan</a></li>
+                <li><a href="index.html#galeri">Galeri</a></li>
+                <li><a href="index.html#testimoni">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+        <a href="https://wa.me/6285156522383?text=Halo%20Admin%20MB%20Star%20Glow%2C%20saya%20ingin%20booking%20Facial%20Home%20Service.%20Terima%20kasih." target="_blank" class="cta-header">BOOKING CEPAT</a>
+    </header>
+
+    <section class="page-title">
+        <h2>HUBUNGI KAMI UNTUK RESERVASI</h2>
+        <p class="tagline-layanan">Pesan jadwal Anda atau dapatkan informasi lebih lanjut.</p>
+    </section>
+
+    <section id="kontak-info" class="kontak-info-section">
+        
+        <div class="kontak-grid">
+            
+            <div class="info-card">
+                <h3><span class="mint-accent">Pemesanan & Informasi</span></h3>
+                <p>Hubungi salah satu nomor di bawah ini untuk *fast response* dan *booking* jadwal Anda:</p>
+                <ul>
+                    <li><a href="tel:+6285156522383">📞 0851-5652-2383</a> (Admin 1 - Utama)</li>
+                    <li><a href="tel:+6281331416003">📞 0813-3141-6003</a> (Admin 2)</li>
+                    <li><a href="https://wa.me/6285156522383" target="_blank">💬 WhatsApp Langsung</a></li>
+                </ul>
+            </div>
+            
+            <div class="info-card">
+                <h3><span class="mint-accent">Jam Operasional</span></h3>
+                <p>Kami siap melayani *facial home service* di rumah Anda pada jam:</p>
+                <h4 class="gold-accent">09.00 - 16.00 WIB</h4>
+                <p class="small-text">*Untuk pemesanan di luar jam tersebut, mohon konfirmasi terlebih dahulu.</p>
+            </div>
+
+            <div class="info-card">
+                <h3><span class="mint-accent">Media Sosial Kami</span></h3>
+                <p>Ikuti kami untuk update promo dan tips kecantikan!</p>
+                <ul>
+                    <li>📷 Instagram: <a href="https://instagram.com/mbstarglow_officialstore" target="_blank">mbstarglow_officialstore</a></li>
+                    <li>▶️ YouTube: <a href="#">MB STAR GLOW OFFICIAL</a></li>
+                    <li>🎵 TikTok: <a href="#">MB Star Glow</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="alamat-map-container">
+            <h3><span class="mint-accent">Alamat Kantor (Titik Kumpul Therapist)</span></h3>
+            <p>Jalan Basuki Rahmat No. 91E 91F, Krian, Sidoarjo - Jawa Timur 61262</p>
+
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.848805374677!2d112.5843477147754!3d-7.373266994165688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e42d1f4d9b4b%3A0x8e8a9f4c3a7d4a46!2sMB%20STAR%20GLOW%20STORE%20OFFICIAL!5e0!3m2!1sid!2sid!4v1634567890123!5m2!1sid!2sid" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer id="kontak-footer">
+        <p>Hubungi Kami: 0851-5652-2383 | Jam Layanan: 09.00 - 16.00 WIB</p>
+        <p>Alamat: Jl. Basuki Rahmat No. 91E, Krian, Sidoarjo | © 2025 MB Star Glow.</p>
+    </footer>
+
+    <div id="chatbot-container">
+        <div id="chatbot-header">
+            GlowBot (Asisten Virtual)
+            <span id="close-chatbot">×</span>
+        </div>
+        <div id="chatbot-body">
+            <div class="message bot-message">Halo! Saya GlowBot, asisten virtual MB Star Glow. Bagaimana saya bisa membantu Anda hari ini? (Coba ketik 'harga' atau 'booking')</div>
+        </div>
+        <div id="chatbot-footer">
+            <input type="text" id="user-input" placeholder="Tanyakan sesuatu...">
+            <button id="send-btn">Kirim</button>
+        </div>
+    </div>
+    
+    <div id="chatbot-icon" class="chatbot-icon">
+        <span>GlowBot (24/7)</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
